@@ -1,12 +1,13 @@
 // api.js
 (function () {
-  // Inject main.css
+  // Inject main.css from GitHub raw
   const styleLink = document.createElement("link");
   styleLink.rel = "stylesheet";
-  styleLink.href = "https://cdn.jsdelivr.net/gh/Tituswashere/website/main.css";
+  styleLink.href =
+    "https://raw.githubusercontent.com/Tituswashere/website/main/main.css";
   document.head.appendChild(styleLink);
 
-  // Sidebar initialization
+  // Sidebar + components setup
   function initSidebar() {
     const mobileSidebar = document.querySelector("sidebar-mobile");
     if (!mobileSidebar) return;
