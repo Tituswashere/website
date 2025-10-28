@@ -3,8 +3,8 @@
   // Inject main.css from GitHub raw
   const styleLink = document.createElement("link");
   styleLink.rel = "stylesheet";
-  styleLink.href = "main.css"
-    "https://raw.githubusercontent.com/Tituswashere/website/main/main.css";
+  styleLink.href =
+    "main.css";
   document.head.appendChild(styleLink);
 
   // Sidebar + components setup
