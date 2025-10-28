@@ -3,7 +3,7 @@
   // Inject main.css from GitHub raw
   const styleLink = document.createElement("link");
   styleLink.rel = "stylesheet";
-  styleLink.href =
+  styleLink.href = "main.css"
     "https://raw.githubusercontent.com/Tituswashere/website/main/main.css";
   document.head.appendChild(styleLink);
 
